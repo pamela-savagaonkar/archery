@@ -1,0 +1,58 @@
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 70%;
+  }
+  table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+  }
+  table tr {
+    border: 1px solid #ddd;
+    padding: .35em;
+  }
+  table tr:nth-child(even) {
+    background: #f8f8f8;  
+  }
+  table th,
+  table td {
+    padding: .5em;
+    text-align: left;
+  }
+  table th {
+    background: #2f2f2f;
+    color: #fff;
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  table td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .lightblue {background-color: lightblue;}
+
+  .lightorange {background-color: lightcoral;}
+
+  .lightgreen {background-color: lightgreen;}
+
+  .lightgrey {background-color: lightgrey;}
+
+  .time {
+    background: #2f2f2f;
+    color: #fff;
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+
+  .flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+  
+  }
